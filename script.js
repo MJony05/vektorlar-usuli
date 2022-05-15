@@ -1,3 +1,4 @@
+/*
 let a = 2,
   b = 3;
 const func = (x) => {
@@ -12,8 +13,7 @@ for (let i = 0; i < 100; i++) {
     console.log("x" + (i + 1) + "=" + xnn);
   } else break;
 }
-
-/*
+*/
 let a = 0,
   b = 4,
   n = 3;
@@ -28,4 +28,3 @@ let fxn = 1 / (1 + Math.sqrt(2 * b + 1));
 S = h * (S + (fx0 + fxn) / 2);
 console.clear();
 console.log(S);
-*/
