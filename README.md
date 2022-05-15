@@ -1,0 +1,1 @@
+# vektorlar-usuli
