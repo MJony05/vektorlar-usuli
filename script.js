@@ -16,9 +16,9 @@ for (let i = 0; i < 100; i++) {
 */
 let a = 0,
   b = 4,
-  n = 3;
-let h = (b - a) / n;
-let S = 0;
+  n = 3,
+  h = (b - a) / n,
+  S = 0;
 for (let i = 1; i <= n - 1; i++) {
   let x = a + i * h;
   S += 1 / (1 + Math.sqrt(2 * x + 1));
@@ -26,5 +26,4 @@ for (let i = 1; i <= n - 1; i++) {
 let fx0 = 1 / (1 + Math.sqrt(2 * a + 1));
 let fxn = 1 / (1 + Math.sqrt(2 * b + 1));
 S = h * (S + (fx0 + fxn) / 2);
-console.clear();
 console.log(S);
