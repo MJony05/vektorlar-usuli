@@ -28,3 +28,13 @@ let fx0 = 1 / (1 + Math.sqrt(2 * a + 1));
 let fxn = 1 / (1 + Math.sqrt(2 * b + 1));
 S = h * (S + (fx0 + fxn) / 2);
 console.log(S);
+
+const nexia3 = {
+  color: "red",
+  isBuy: true,
+};
+Object.assign(newCar, nexia3);
+// const newCar = Object.assign({}, nexia3);
+newCar.color = "blue";
+console.log(nexia3);
+console.log(newCar);
